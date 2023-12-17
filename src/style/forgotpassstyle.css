@@ -1,0 +1,398 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.forgot_nav{
+  background-color: black;
+  padding-left: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.forgot_logoimg{
+  width: 160px;
+}
+.forgot_loginoutbox{
+  background-color: black;
+}
+.forgot_loginbox{
+max-width: fit-content;
+background-color: black;
+}
+.forgot_heading{
+  color: white;
+  font-size: 47px;
+  margin-left: 10px;
+}
+.forgot_google{
+   display: flex;
+  /* align-items: center;
+  justify-content: center;  */
+  background-color: black;
+  border: 1px rgba(255, 255, 255, 0.475) solid;
+  border-radius: 50px;
+  gap: 40px;
+  width: 100%;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 40px;
+ 
+}
+.forgot_google:hover{
+  border: 2px white solid;
+}
+.forgot_google2:hover{
+  border: 2px white solid;
+}
+.forgot_google3:hover{
+  border: 2px white solid;
+}
+.forgot_google4:hover{
+  border: 2px white solid;
+}
+.forgot_googleimg{
+  height: 28px;
+  width: 28px;
+}
+.forgot_googleimgtxt{
+  color: white;
+  font-weight: bold;
+}
+.forgot_logibox2{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.forgot_google2{
+  display: flex;
+ /* align-items: center;
+ justify-content: center;  */
+ background-color: black;
+ border: 1px rgba(255, 255, 255, 0.475) solid;
+ border-radius: 50px;
+ gap: 30px;
+ width: 100%;
+ padding-left: 40px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ margin-top: 10px;
+
+}
+.forgot_google3{
+  display: flex;
+ /* align-items: center;
+ justify-content: center;  */
+ background-color: black;
+ border: 1px rgba(255, 255, 255, 0.475) solid;
+ border-radius: 50px;
+ gap: 45px;
+ width: 100%;
+ padding-left: 40px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ margin-top: 10px;
+
+}
+.forgot_google4{
+  margin-top: 10px;
+  display: flex;
+ /* align-items: center;
+ justify-content: center;  */
+ background-color: black;
+ border: 1px rgba(255, 255, 255, 0.475) solid;
+ border-radius: 50px;
+ gap: 40px;
+ width: 100%;
+ padding-left: 40px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+
+}
+.forgot_line1{
+  color: white;
+ width: 570px;
+  opacity: .7;
+  position: absolute;
+  top: 570px;
+  right: 470px;
+}
+.forgot_line2{
+  color: white;
+ width: 570px;
+  opacity: .7;
+  position: absolute;
+  top: 990px;
+  right: 470px;
+}
+.forgot_emailbox{
+  width: 100%;
+  background-color: rgb(11, 11, 11);
+  border: 1px rgba(255, 255, 255, 0.735) solid;
+  padding: 10px;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.forgot_emailbox:hover{
+
+  border: 2px white solid;
+  
+
+}
+.forgot_emailbox::placeholder{
+ color: white;
+ opacity: .7;
+}
+.forgot_emaillabel{
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 60px;
+
+}
+.forgot_emaillabel2{
+  color: white;
+  font-weight: bold;
+  margin-top: 50px;
+ 
+}
+.forgot_remembercheck{
+  margin-top: 20px;
+  accent-color: red;
+  border-radius: 50%;
+  
+}
+.forgot_emaillabel1{
+  color: white;
+  font-weight: bold;
+  margin-top: 15px;
+ 
+}
+.forgot_loginbtn{
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 10px ;
+  padding-bottom: 10px;
+  width: 100%;
+  border-radius: 50px;
+  background-color: rgba(30,215,96,255);
+  border: none;
+  margin-top: 40px;
+} 
+.forgot_loginbtn:hover{
+  scale: 1.03;
+}
+.forgot_emailpassforgot{
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 30px;
+}
+.forgot_emailpassforgot:hover{
+  color: rgba(30,215,96,255);
+}
+.forgot_emailpassforgot1:hover{
+  color: rgba(30,215,96,255);
+}
+.forgot_emailpassforgot1{
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  margin-left: 5px;
+}
+.forgot_opacity{
+  opacity: .7;
+  color: white;
+}
+.forgot_opacity1{
+  opacity: .7;
+  font-size: 13px;
+  color: white;
+  position: absolute;
+  top: 1170px;
+  right: 485px;
+}
+.forgot_underline{
+  text-decoration: underline;
+}
+.forgot_grey{
+  background-image:linear-gradient(to bottom,rgb(35, 34, 34),black) ;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.forgot_center{
+  text-align: center;
+  margin-top: 60px;
+}
+.forgot_size{
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 60px;
+  background-color: black;
+  margin-top: 40px;
+  height: 1100px;
+}
+.forgot_switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.forgot_slider {
+  position: absolute;
+  cursor: pointer;
+  top: 793px;
+  left: 580px;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(255, 255, 255,0.3);
+  transition: .4s;
+  width: 30px;
+  height:18px;
+}
+
+.forgot_slider:before {
+  position: absolute;
+  content: "";
+  height: 13px; /* Height of the circular button */
+  width: 13px; /* Width of the circular button */
+  left: 2px;
+  bottom: 2px;
+  background-color: rgb(3, 3, 3);
+  transition: .4s;
+}
+
+
+input:checked + .forgot_slider {
+  background-color: #1ed760;
+
+}
+
+input:focus + .forgot_slider {
+  box-shadow: 0 0 1px #1ed760;
+}
+
+input:checked + .forgot_slider:before {
+  transform: translateX(13px);
+}
+
+.forgot_slider.forgot_round {
+  border-radius: 34px;
+}
+
+.forgot_slider.forgot_round:before {
+  border-radius: 50%;
+}
+
+.forgot_box{
+color: white;
+background-color: black;
+margin: auto;
+width: fit-content;
+}
+.forgot_headingg{
+  font-size: 50px;
+  text-align: center;
+}
+.forgot_p11{
+  opacity: .8;
+  text-align: center;
+  margin-top: 20px;
+}
+.forgot_s1{
+  margin-top: 20px;
+}
+.forgot_in1{
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border-color: white;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+}
+.forgot_btnsend{
+  padding: 15px;
+  background-color: rgb(10, 193, 10);
+  border-radius: 50px;
+  color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+}
+.forgot_centerdv{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  
+}
+.forgot_p12{
+  opacity: .8;
+  margin-top: 20px;
+  text-align: center;
+}
+.forgot_p12 em{
+  font-style: normal;
+  text-decoration: underline;
+}
+.forgot_p12 em:hover{
+  color: rgb(24, 221, 24);
+  cursor: pointer;
+}
+.forgot_mainn{
+  
+  position: relative;
+  background-color: black;
+  padding-top: 20px;
+  height: 630px;
+}
+.forgot_capt{
+display: flex;
+position: absolute;
+bottom: 20px;
+right: 0px;
+
+}
+.forgot_capimg{
+  height: 40px;
+  width: 40px;
+}
+.forgot_capt:hover .forgot_blu{
+overflow: visible;
+}
+.forgot_divcap{
+  background-color: white;
+  padding: 10px;
+  width: fit-content;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.forgot_psm{
+  font-size: 10px;
+  
+}
+.forgot_blu{
+  background-color: rgb(0, 123, 255);
+  padding: 10px;
+overflow: hidden;
+
+}
+.forgot_p13{
+  color: white;
+}
+.forgot_p13 em{
+  font-size: 14px;
+  margin-top: 5px;
+}
